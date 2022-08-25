@@ -13,5 +13,5 @@
     border-radius: calc(var(--kb-height) / 30);
     color: var(--dark-color);
     background: #343434;
-    font-size: calc(var(--kb-height) / 8);
+    font-size: calc(var(--kb-height) / 5);
 }
