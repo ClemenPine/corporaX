@@ -14,5 +14,4 @@
     color: var(--dark-color);
     background: #343434;
     font-size: calc(var(--kb-height) / 8);
-    line-height: calc(var(--kb-height) / 6);
 }
