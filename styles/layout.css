@@ -1,0 +1,18 @@
+#layout
+{
+    display: grid;
+    height: var(--kb-height);
+    grid-gap: calc(var(--kb-height) / 40);
+    grid-template-columns: repeat(11, calc(var(--kb-height) / 3));
+}
+
+.key
+{
+    display: flex;
+    justify-content: center;
+    border-radius: calc(var(--kb-height) / 30);
+    color: var(--dark-color);
+    background: #343434;
+    font-size: calc(var(--kb-height) / 8);
+    line-height: calc(var(--kb-height) / 6);
+}

@@ -1,0 +1,6 @@
+textarea
+{
+    width: 100%;
+    font-size: calc(var(--kb-height) / 10);
+    resize: none;
+}

@@ -1,0 +1,64 @@
+@import 'layout.css';
+@import 'sidebar.css';
+
+:root
+{
+    --bg-color: #3D3C3C;
+    --dark-color: #2B2A2A;
+    --light-color: rgb(175, 175, 175);
+
+    --kb-height: min(max(23vh, 100px), 15vw)
+}
+
+* 
+{ 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body
+{
+    margin: 0px;
+}
+
+.padded
+{
+    padding: 10px;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--light-color);
+    background: var(--dark-color);
+    font-family: 'Fira Code', monospace;
+}
+
+#page
+{
+    display: flex;
+    height: 100vh;
+    background: var(--bg-color);
+}
+
+#main
+{
+    flex: 1 0 auto;
+}
+
+#metrics
+{
+    height: calc(100vh - var(--kb-height) - 40px);
+    padding-top: 0px;
+}
+
+#sidebar
+{
+    width: 40vw;
+    padding-left: 0px;
+}
